@@ -55,3 +55,21 @@ The tool incorporates an evolving theme engine that adapts to users' wallpapers 
 
 1. Ensure that the tool has access to the user's wallpaper and color preferences.
 2. The theme engine will automatically adapt the interface based on the detected preferences.
+
+## Driver Management
+
+The tool now supports saving and loading OS-specific drivers. This feature allows you to quickly set up any OS with your credentials, logins, and drivers.
+
+### Saving OS-specific drivers
+
+To save your OS-specific drivers, follow these steps:
+
+1. Ensure that the tool is running on the target OS.
+2. Use the `save_driver` function to save the drivers to a specified location.
+
+### Loading OS-specific drivers
+
+To load your OS-specific drivers, follow these steps:
+
+1. Ensure that the tool is running on the target OS.
+2. Use the `load_driver` function to load the drivers from the specified location.
